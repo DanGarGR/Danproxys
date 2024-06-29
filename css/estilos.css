@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Bubbler";
+    src: url("../fonts/BubblerOne-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body.bg-image {
+    background-image: url("../imagenes/1313027.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Fondo {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 0;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+.card-img-top:hover {
+    animation: 3.2s mob 1;
+}
+
+@keyframes mob {
+    20% {
+        transform: scale(0.6) rotate(-20deg);
+    }
+    30% {
+        transform: scale(1.5) rotate(15deg);
+    }
+    50% {
+        transform: scale(1.5) rotate(-20deg);
+    }
+}
+
+@-webkit-keyframes mob {
+    20% {
+        transform: scale(0.6) rotate(-20deg);
+    }
+    30% {
+        transform: scale(1.5) rotate(15deg);
+    }
+    50% {
+        transform: scale(1.5) rotate(-20deg);
+    }
+}
+
+.navbar {
+    margin: 0;
+}
+
+.footer {
+    margin: 0;
+}
